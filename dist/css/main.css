@@ -1,0 +1,33 @@
+/*.example {
+  /* overflow-x: auto;*/
+
+
+.example table, .example td {
+  border: 1px solid black;
+}
+
+.example table {
+  height: 100%;
+  width: 100%;
+}
+
+.example table th {
+  text-align: center;
+  background-color: burlywood;
+  vertical-align: bottom;
+  padding: 15px;
+}
+
+.example table td {
+  text-align: center;
+  padding: 15px;
+}
+
+.example table td :hover {
+  background-color: forestgreen;
+}
+
+.example table tr :hover {
+  background-color: cornflowerblue;
+}
+/*# sourceMappingURL=main.css.map */
