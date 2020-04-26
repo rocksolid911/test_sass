@@ -1,6 +1,6 @@
-/*.example {
+.example {
   /* overflow-x: auto;*/
-
+}
 
 .example table, .example td {
   border: 1px solid black;
@@ -21,10 +21,6 @@
 .example table td {
   text-align: center;
   padding: 15px;
-}
-
-.example table td :hover {
-  background-color: forestgreen;
 }
 
 .example table tr :hover {
