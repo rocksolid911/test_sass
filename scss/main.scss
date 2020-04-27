@@ -1,1 +1,30 @@
-@import "table"
+@import "table";
+@import "color";
+@import "grid";
+@import "menu";
+.title{
+    text-align: center;
+    overflow: auto;
+     
+   
+}
+body{
+    background-color: #9ADF00;
+}
+h1{
+    color: papayawhip;
+    font-size: 150px;
+    transition: .15s linear color;
+    &:hover{
+        color: rgb(23, 104, 33);;
+    }
+}
+span{
+    color: seashell;
+    font-weight: 700;
+    transition: .15s linear color;
+    &:hover{
+        color: rgb(23, 104, 33);
+    }
+  }
+  

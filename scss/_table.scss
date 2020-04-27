@@ -1,13 +1,13 @@
 
- 
+
 .example {
    /* overflow-x: auto;*/
+   overflow:scroll;;
 table, td {
   border: 1px solid black;
 }
 table{
-    height: 100%;
-    width: 100%;
+    
     th{
         text-align: center;
         background-color: burlywood;
@@ -20,7 +20,11 @@ table{
         padding: 15px;
     }
     tr{
-        :hover{background-color: cornflowerblue;}
+        :hover{
+            background-color: rgb(70, 10, 47); 
+            opacity:0.5;;
+            color: fade-in($color: #eceef5, $amount: 0);
+        }
     }
     
     
